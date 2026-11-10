@@ -763,3 +763,26 @@ TMLR/workshop do not. Repo isolated to the project (parent not a git repo). 6 te
 
 Submission package fully finalised and version-controlled. Remaining = the human submit clicks
 (arXiv upload, TMLR OpenReview, workshop when call opens) per paper/SUBMISSION-GUIDE.md.
+
+## 2026-11-10 (TMLR prep + workshop scan; ICBINB-BIO closed)
+
+**ICBINB-BIO workshop: CLOSED for this round.** Verified on icbinb-bio.github.io: deadline was
+2 Sep 2026 (today 10 Nov 2026), accepted papers + schedule posted, workshop 11 Dec 2026. Cannot
+submit now. It remains the best-fit venue -> target its NEXT round. The paper-workshop/ 4pp draft
+is ready to adapt.
+
+**Alt-workshop scan** (paper/ALT-WORKSHOPS.md): currently-open option = ICLR'27 "AI for Science:
+Scientific Workbenches" (deadline 1 Feb 2027 AoE, non-archival, double-blind, 4-8pp ICLR style) =
+MODERATE/reach fit. COSYNE'27 main closed. MLCB/GEM/ICML-WCB = weak fit (generative/translational
+bio). Other ICLR'27 workshop CfPs open ~Dec-Jan -> recheck for a reliability/eval fit. Honest call:
+no currently-open venue is a strong fit; don't force-fit; TMLR is the real near-term action.
+
+**TMLR prep done** (paper-tmlr/TMLR-OPENREVIEW-FIELDS.md): exact OpenReview fields + anonymized
+code/data mirror via anonymous.4open.science (scrub LICENSE/README/log identity on the mirror;
+swap to real repo + author block at camera-ready) + anonymity checklist. Verified the TMLR source
+and compiled PDF leak NO identity (author "Anonymous", no repo/name/email). Committed 99ad2dc,
+pushed.
+
+Status: arXiv submitted (awaiting ID). TMLR = ready to submit (needs the user to create the
+4open.science mirror + click submit on OpenReview). Workshop = hold for next ICBINB round (or
+ICLR'27 AI4Science as a reach).
