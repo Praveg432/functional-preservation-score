@@ -1,0 +1,62 @@
+{
+  "experiment": "T1-V6 reservoir go/no-go probe for Effect B",
+  "substrate": "real-celegans-activity (Kato 2015) + random reservoir",
+  "gate_rule": "GO iff base_fps>0.15 AND high-regime margin>0.05",
+  "per_worm": [
+    {
+      "worm": 0,
+      "n_neurons": 109,
+      "base_fps_mean": 0.0,
+      "margins": {
+        "0.3": null,
+        "0.5": null,
+        "0.7": null
+      }
+    },
+    {
+      "worm": 1,
+      "n_neurons": 135,
+      "base_fps_mean": 0.0,
+      "margins": {
+        "0.3": null,
+        "0.5": null,
+        "0.7": null
+      }
+    },
+    {
+      "worm": 2,
+      "n_neurons": 131,
+      "base_fps_mean": 0.0,
+      "margins": {
+        "0.3": null,
+        "0.5": null,
+        "0.7": null
+      }
+    },
+    {
+      "worm": 3,
+      "n_neurons": 125,
+      "base_fps_mean": 0.0,
+      "margins": {
+        "0.3": null,
+        "0.5": null,
+        "0.7": null
+      }
+    },
+    {
+      "worm": 4,
+      "n_neurons": 129,
+      "base_fps_mean": 0.0,
+      "margins": {
+        "0.3": null,
+        "0.5": null,
+        "0.7": null
+      }
+    }
+  ],
+  "mean_base_fps": 0.0,
+  "mean_margin_low": null,
+  "mean_margin_high": null,
+  "decision": "NO-GO drop Effect B",
+  "go": false
+}

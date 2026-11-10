@@ -1,0 +1,63 @@
+{
+  "experiment": "T3 statistical hardening (repeated CV + permutation)",
+  "substrate": "DANDI-000044-Buddy-laps-dir1",
+  "n_laps": 26,
+  "n_splits": 30,
+  "train_frac": 0.7,
+  "uncompressed_headroom": {
+    "top1_mean": 0.6875,
+    "ci95": [
+      0.6291666666666667,
+      0.7375
+    ],
+    "n_splits": 30,
+    "mean_chance": 0.12461666666666667,
+    "p_value_vs_permutation_null": 9.999000099990002e-05
+  },
+  "frontier_with_ci": [
+    {
+      "latent_dim": 16,
+      "bits": 8,
+      "bits_per_event": 128,
+      "top1_mean": 0.6875,
+      "ci95": [
+        0.6291666666666667,
+        0.7375
+      ],
+      "n_splits": 30
+    },
+    {
+      "latent_dim": 16,
+      "bits": 2,
+      "bits_per_event": 32,
+      "top1_mean": 0.5833333333333334,
+      "ci95": [
+        0.5333333333333333,
+        0.6375
+      ],
+      "n_splits": 30
+    },
+    {
+      "latent_dim": 8,
+      "bits": 2,
+      "bits_per_event": 16,
+      "top1_mean": 0.4,
+      "ci95": [
+        0.3458333333333333,
+        0.45416666666666666
+      ],
+      "n_splits": 30
+    },
+    {
+      "latent_dim": 4,
+      "bits": 2,
+      "bits_per_event": 8,
+      "top1_mean": 0.275,
+      "ci95": [
+        0.2375,
+        0.31666666666666665
+      ],
+      "n_splits": 30
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "gate": "T3-V1 data+event (Bayesian decode score)",
+  "n_units": 31,
+  "n_sequences": 62,
+  "seq_shape_example": [
+    31,
+    25
+  ],
+  "mean_decode_score_real": 0.3411538461538461,
+  "mean_decode_score_timeshuffled": 0.20420595533498762,
+  "criterion": "n_seq>=5 AND real>shuffled+0.1 AND real>0.3",
+  "passed": true
+}

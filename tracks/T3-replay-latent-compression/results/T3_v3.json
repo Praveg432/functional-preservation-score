@@ -1,0 +1,115 @@
+{
+  "experiment": "T3-V3 incremental-sync capacity/interference",
+  "substrate": "DANDI-000044-Buddy-laps-dir1",
+  "n_events": 26,
+  "latent_dim": 8,
+  "n_slots": 10,
+  "superposition_curve": [
+    {
+      "load": 2,
+      "superposition_recovery": 1.0,
+      "chance": 0.5
+    },
+    {
+      "load": 4,
+      "superposition_recovery": 1.0,
+      "chance": 0.25
+    },
+    {
+      "load": 6,
+      "superposition_recovery": 0.6666666666666666,
+      "chance": 0.16666666666666666
+    },
+    {
+      "load": 8,
+      "superposition_recovery": 0.625,
+      "chance": 0.125
+    },
+    {
+      "load": 10,
+      "superposition_recovery": 0.5,
+      "chance": 0.1
+    },
+    {
+      "load": 15,
+      "superposition_recovery": 0.4,
+      "chance": 0.06666666666666667
+    },
+    {
+      "load": 20,
+      "superposition_recovery": 0.3,
+      "chance": 0.05
+    }
+  ],
+  "slot_curve": [
+    {
+      "load": 2,
+      "slot_recovery": 1.0,
+      "n_slots": 10
+    },
+    {
+      "load": 4,
+      "slot_recovery": 1.0,
+      "n_slots": 10
+    },
+    {
+      "load": 6,
+      "slot_recovery": 1.0,
+      "n_slots": 10
+    },
+    {
+      "load": 8,
+      "slot_recovery": 1.0,
+      "n_slots": 10
+    },
+    {
+      "load": 10,
+      "slot_recovery": 1.0,
+      "n_slots": 10
+    },
+    {
+      "load": 15,
+      "slot_recovery": 0.6666666666666666,
+      "n_slots": 10
+    },
+    {
+      "load": 20,
+      "slot_recovery": 0.5,
+      "n_slots": 10
+    }
+  ],
+  "oldest_curve": [
+    {
+      "load": 2,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 4,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 6,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 8,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 10,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 15,
+      "oldest3_recovery": 1.0
+    },
+    {
+      "load": 20,
+      "oldest3_recovery": 1.0
+    }
+  ],
+  "superposition_monotone_degradation": true,
+  "slot_hard_capacity_cliff": true,
+  "passed": true,
+  "verdict": "Capacity/interference trade-off confirmed: superposition degrades gracefully with load (crosstalk), slot store holds perfectly up to n_slots then evicts oldest."
+}

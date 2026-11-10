@@ -1,0 +1,43 @@
+{
+  "experiment": "T4-V2 reachability (local vs global) + V3 structured teaching",
+  "config": {
+    "n": 40,
+    "density": 0.2,
+    "episodes": 300
+  },
+  "per_divergence": [
+    {
+      "divergence": 0.0,
+      "global_ceiling": 0.9999995326477648,
+      "local_plain": 0.32462382877072893,
+      "local_ripple": 0.32743397112942263,
+      "plausibility_gap": 0.672565561518342
+    },
+    {
+      "divergence": 0.1,
+      "global_ceiling": 0.9911620717938349,
+      "local_plain": 0.4272254520731537,
+      "local_ripple": 0.4293088536507603,
+      "plausibility_gap": 0.5596346551210548
+    },
+    {
+      "divergence": 0.3,
+      "global_ceiling": 0.8811293200914049,
+      "local_plain": 0.2234183048283148,
+      "local_ripple": 0.22361763201173565,
+      "plausibility_gap": 0.6575116880796692
+    },
+    {
+      "divergence": 0.5,
+      "global_ceiling": 0.8873620787992826,
+      "local_plain": 0.41715000171075417,
+      "local_ripple": 0.4151062753055251,
+      "plausibility_gap": 0.4697506620600234
+    }
+  ],
+  "plausibility_gap_at_zero": 0.672565561518342,
+  "large_plausibility_gap": true,
+  "ripple_beats_plain": false,
+  "global_ceiling_falls_with_divergence": true,
+  "verdict": "Global optimizer reaches 1.00 on the fixed topology but local rules reach at most 0.33 -> plausibility gap 0.67. Ripple-timing does not materially help. Global ceiling also falls with divergence (feasibility limit)."
+}

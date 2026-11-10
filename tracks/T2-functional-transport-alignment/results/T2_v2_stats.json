@@ -1,0 +1,41 @@
+{
+  "experiment": "T2 statistical hardening (multi-seed GW + transport)",
+  "substrate": "real-celegans + perturbation model",
+  "rewire": 0.05,
+  "n_seeds": 8,
+  "gw_correspondence_accuracy": {
+    "mean": 0.7602124183006536,
+    "ci95": [
+      0.7365093954248366,
+      0.7806372549019609
+    ],
+    "n": 8
+  },
+  "transport_oracle": {
+    "mean": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ],
+    "n": 8
+  },
+  "transport_oracle_masked": {
+    "mean": 0.40212807180782867,
+    "ci95": [
+      0.3122070914242617,
+      0.4925360573684927
+    ],
+    "n": 8
+  },
+  "transport_gw": {
+    "mean": 0.06300711299857556,
+    "ci95": [
+      0.0,
+      0.1303078829976388
+    ],
+    "n": 8
+  },
+  "p_oracle_gt_masked": 0.00029997000299970003,
+  "p_oracle_gt_gw": 0.00019998000199980003,
+  "verdict": "Feasibility mask and GW-correspondence each significantly reduce transport fidelity vs the oracle+unconstrained ideal."
+}

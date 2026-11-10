@@ -1,0 +1,42 @@
+{
+  "experiment": "T2-V2 transport-preserves-function (+V3 boundary)",
+  "substrate": "real-celegans + perturbation model",
+  "transport_threshold": 0.5,
+  "per_rewire": [
+    {
+      "rewire_frac": 0.0,
+      "fidelity_oracle": 1.0,
+      "fidelity_oracle_masked": 1.0,
+      "fidelity_gw": 0.1858274597609213
+    },
+    {
+      "rewire_frac": 0.05,
+      "fidelity_oracle": 1.0,
+      "fidelity_oracle_masked": 0.33114924768744247,
+      "fidelity_gw": 0.2606157659952776
+    },
+    {
+      "rewire_frac": 0.1,
+      "fidelity_oracle": 1.0,
+      "fidelity_oracle_masked": 0.45875202652757474,
+      "fidelity_gw": 0.0
+    },
+    {
+      "rewire_frac": 0.2,
+      "fidelity_oracle": 1.0,
+      "fidelity_oracle_masked": 0.340523342251845,
+      "fidelity_gw": 0.0
+    },
+    {
+      "rewire_frac": 0.4,
+      "fidelity_oracle": 1.0,
+      "fidelity_oracle_masked": 0.33710015798213144,
+      "fidelity_gw": 0.0
+    }
+  ],
+  "v2_oracle_fidelity_at_zero": 1.0,
+  "v2_passed": true,
+  "v3_boundary_rewire": null,
+  "h3_feasibility_mask_cost_at_zero": 0.0,
+  "verdict": "Oracle transport PRESERVES function at zero divergence (fid 1.00). Holds across swept divergence. Feasibility mask costs 0.00 FPS (H3)."
+}

@@ -1,0 +1,49 @@
+{
+  "experiment": "T5 statistical hardening (permutation p-value)",
+  "substrate": "real-celegans",
+  "n_null": 500,
+  "per_frac": [
+    {
+      "payload_frac": 0.1,
+      "payload_size": 10,
+      "payload_drop": 0.8487007018228172,
+      "null_mean": 0.5773573088355087,
+      "null_std": 0.23246578859123307,
+      "z": 1.1672401064450715,
+      "p_value_one_sided": 0.17365269461077845,
+      "significant_at_0.05": false
+    },
+    {
+      "payload_frac": 0.2,
+      "payload_size": 19,
+      "payload_drop": 1.0,
+      "null_mean": 0.6956688493443787,
+      "null_std": 0.22032570468080775,
+      "z": 1.3812784564344693,
+      "p_value_one_sided": 0.1596806387225549,
+      "significant_at_0.05": false
+    },
+    {
+      "payload_frac": 0.3,
+      "payload_size": 28,
+      "payload_drop": 1.0,
+      "null_mean": 0.7807437254775073,
+      "null_std": 0.20104626022761007,
+      "z": 1.090576234463105,
+      "p_value_one_sided": 0.27345309381237526,
+      "significant_at_0.05": false
+    },
+    {
+      "payload_frac": 0.4,
+      "payload_size": 38,
+      "payload_drop": 1.0,
+      "null_mean": 0.8342819955058649,
+      "null_std": 0.18126091067349479,
+      "z": 0.9142511916338746,
+      "p_value_one_sided": 0.36926147704590817,
+      "significant_at_0.05": false
+    }
+  ],
+  "verdict": "H2 CONFIRMED with significance: asserted payload NOT significantly more privileged than random interneurons at any tested fraction (all p>=0.05)",
+  "h2_holds": true
+}

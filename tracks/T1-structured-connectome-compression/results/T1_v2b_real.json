@@ -1,0 +1,42 @@
+{
+  "experiment": "T1-V2b matched-effective-sparsity structure advantage",
+  "substrate": "real-celegans",
+  "quant": "int4",
+  "protect_frac": 0.25,
+  "curve": [
+    {
+      "target_sparsity": 0.5,
+      "actual_sparsity_uniform": 0.7295756808106397,
+      "actual_sparsity_engram": 0.4996833438885371,
+      "fps_uniform_mean": 0.07699356705686877,
+      "fps_engram_mean": 0.3200452736281271,
+      "margin_mean": 0.24305170657125835
+    },
+    {
+      "target_sparsity": 0.6,
+      "actual_sparsity_uniform": 0.7295756808106397,
+      "actual_sparsity_engram": 0.5997466751108296,
+      "fps_uniform_mean": 0.07699356705686877,
+      "fps_engram_mean": 0.35047413999406896,
+      "margin_mean": 0.2734805729372002
+    },
+    {
+      "target_sparsity": 0.7,
+      "actual_sparsity_uniform": 0.7295756808106397,
+      "actual_sparsity_engram": 0.7001266624445852,
+      "fps_uniform_mean": 0.07699356705686877,
+      "fps_engram_mean": 0.34910052935461744,
+      "margin_mean": 0.27210696229774867
+    },
+    {
+      "target_sparsity": 0.8,
+      "actual_sparsity_uniform": 0.7998733375554148,
+      "actual_sparsity_engram": 0.7998733375554148,
+      "fps_uniform_mean": 0.0,
+      "fps_engram_mean": 0.1367275225296801,
+      "margin_mean": 0.1367275225296801
+    }
+  ],
+  "mean_margin": 0.23134169108397185,
+  "engram_advantage_confirmed": true
+}

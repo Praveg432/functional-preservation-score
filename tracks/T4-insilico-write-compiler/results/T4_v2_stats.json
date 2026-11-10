@@ -1,0 +1,41 @@
+{
+  "experiment": "T4 statistical hardening (gap CI + permutation)",
+  "config": {
+    "n": 40,
+    "divergence": 0.0,
+    "n_seeds": 10,
+    "episodes": 300
+  },
+  "global_ceiling": {
+    "mean": 0.9999996932386803,
+    "ci95": [
+      0.9999994570203722,
+      0.9999998787507436
+    ]
+  },
+  "best_local": {
+    "mean": 0.5525240119066587,
+    "ci95": [
+      0.35930808488182164,
+      0.7269546001549664
+    ]
+  },
+  "plausibility_gap": {
+    "mean": 0.44747568133202165,
+    "ci95": [
+      0.26913649716487426,
+      0.636174105640956
+    ],
+    "cohens_d": 2.0216502601905666
+  },
+  "p_value_global_gt_local": 9.999000099990002e-05,
+  "ripple_minus_plain": {
+    "mean": -0.0002881757106961813,
+    "ci95": [
+      -0.002857212428318666,
+      0.0016972520287967575
+    ],
+    "ripple_helps_significantly": false
+  },
+  "verdict": "Plausibility gap 0.45 (95% CI [0.27,0.64]), global>local p=0.0001. Ripple does not help (CI includes 0)."
+}

@@ -1,0 +1,188 @@
+{
+  "experiment": "T3-V2 compression-floor (identification accuracy)",
+  "substrate": "DANDI-000044-Buddy-laps-dir1",
+  "n_train": 18,
+  "n_test": 8,
+  "headroom": {
+    "uncompressed_top1": 0.75,
+    "chance": 0.125,
+    "ratio_vs_chance": 6.0,
+    "passed": true
+  },
+  "frontier": [
+    {
+      "latent_dim": 2,
+      "bits": 1,
+      "bits_per_event": 2,
+      "top1": 0.25,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 2,
+      "bits": 2,
+      "bits_per_event": 4,
+      "top1": 0.125,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 1,
+      "bits_per_event": 4,
+      "top1": 0.5,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 2,
+      "bits": 3,
+      "bits_per_event": 6,
+      "top1": 0.25,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 2,
+      "bits": 4,
+      "bits_per_event": 8,
+      "top1": 0.125,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 2,
+      "bits_per_event": 8,
+      "top1": 0.25,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 1,
+      "bits_per_event": 8,
+      "top1": 0.5,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 2,
+      "bits": 6,
+      "bits_per_event": 12,
+      "top1": 0.125,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 3,
+      "bits_per_event": 12,
+      "top1": 0.375,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 2,
+      "bits": 8,
+      "bits_per_event": 16,
+      "top1": 0.125,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 4,
+      "bits_per_event": 16,
+      "top1": 0.375,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 2,
+      "bits_per_event": 16,
+      "top1": 0.5,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 1,
+      "bits_per_event": 16,
+      "top1": 0.75,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 6,
+      "bits_per_event": 24,
+      "top1": 0.25,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 3,
+      "bits_per_event": 24,
+      "top1": 0.625,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 4,
+      "bits": 8,
+      "bits_per_event": 32,
+      "top1": 0.25,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 4,
+      "bits_per_event": 32,
+      "top1": 0.5,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 2,
+      "bits_per_event": 32,
+      "top1": 0.75,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 6,
+      "bits_per_event": 48,
+      "top1": 0.5,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 3,
+      "bits_per_event": 48,
+      "top1": 0.875,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 8,
+      "bits": 8,
+      "bits_per_event": 64,
+      "top1": 0.625,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 4,
+      "bits_per_event": 64,
+      "top1": 0.625,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 6,
+      "bits_per_event": 96,
+      "top1": 0.75,
+      "chance": 0.125
+    },
+    {
+      "latent_dim": 16,
+      "bits": 8,
+      "bits_per_event": 128,
+      "top1": 0.75,
+      "chance": 0.125
+    }
+  ],
+  "floor_bits_per_event": 4,
+  "good_threshold_top1": 0.3,
+  "uncompressed_raw_bits": 38400,
+  "compression_ratio_at_floor": 9600.0,
+  "passed": true,
+  "verdict": "Floor ~4 bits/event (~9600x vs raw 38400 bits) holding identification top-1 >= 0.30 (chance 0.12)."
+}

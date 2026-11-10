@@ -1,0 +1,28 @@
+{
+  "experiment": "T5-V2 separability vs null (fixed I/O interface, corrected)",
+  "substrate": "real-celegans",
+  "n_null": 40,
+  "payload_frac_of_interneurons": 0.4,
+  "n_interneurons": 95,
+  "payload_size": 38,
+  "partitions": {
+    "hub_core": {
+      "payload_size": 38,
+      "payload_ablation_drop": 1.0,
+      "null_mean_drop": 0.8248719067826178,
+      "null_std_drop": 0.17042105346849876,
+      "z_vs_null": 1.0276200541274876,
+      "percentile_vs_null": 0.7
+    },
+    "recurrent": {
+      "payload_size": 38,
+      "payload_ablation_drop": 1.0,
+      "null_mean_drop": 0.8248719067826178,
+      "null_std_drop": 0.17042105346849876,
+      "z_vs_null": 1.0276200541274876,
+      "percentile_vs_null": 0.7
+    }
+  },
+  "verdict": "H2 (corrective): the asserted 'identity payload' is NO MORE privileged than a random interneuron subset \u2014 no special separable module",
+  "passed": true
+}

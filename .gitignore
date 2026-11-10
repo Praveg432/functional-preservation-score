@@ -1,0 +1,40 @@
+# local environment (reproduce via requirements.txt)
+.venv/
+__pycache__/
+*.pyc
+
+# large cached datasets (fetched via scripts/ + documented URLs, not committed)
+data/**/*.mat
+data/**/*.nwb
+data/**/*.npz
+data/*.mat
+data/*.nwb
+data/*.npz
+data/hippocampus/trajectory.bin
+
+# LaTeX build intermediates (paper.pdf IS committed; intermediates are not)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/figures/*.png
+paper-tmlr/*.aux
+paper-tmlr/*.log
+paper-tmlr/*.out
+paper-tmlr/*.bbl
+paper-tmlr/*.blg
+paper-tmlr/figures/*.png
+# arXiv: keep paper.bbl (needed for the upload) + the tarball; ignore other intermediates + extract dir
+paper-arxiv/*.aux
+paper-arxiv/*.log
+paper-arxiv/*.out
+paper-arxiv/*.blg
+paper-arxiv/arxiv-src/
+paper-arxiv/figures/*.png
+paper-workshop/*.aux
+paper-workshop/*.log
+paper-workshop/*.out
+paper-workshop/*.bbl
+paper-workshop/*.blg
+paper-workshop/figures/*.png

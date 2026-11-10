@@ -1,0 +1,35 @@
+{
+  "experiment": "T1-V3b scaling rule (H3)",
+  "substrate": "real-celegans",
+  "structural_quantity": "hub_mass_fraction",
+  "bitdepth": "int4",
+  "points": [
+    {
+      "alpha": 0.0,
+      "hub_mass_fraction": 0.7871260683760684,
+      "engram_advantage": 0.2629383535833871
+    },
+    {
+      "alpha": 0.25,
+      "hub_mass_fraction": 0.7690304487179487,
+      "engram_advantage": 0.028588262936696866
+    },
+    {
+      "alpha": 0.5,
+      "hub_mass_fraction": 0.7569110576923077,
+      "engram_advantage": -0.005428299077370319
+    },
+    {
+      "alpha": 0.75,
+      "hub_mass_fraction": 0.7598991720085471,
+      "engram_advantage": -0.0049749027810298
+    },
+    {
+      "alpha": 1.0,
+      "hub_mass_fraction": 0.758346688034188,
+      "engram_advantage": 0.012991403025275955
+    }
+  ],
+  "correlation_hubmass_vs_advantage": 0.9579452956558704,
+  "h3_supported": true
+}

@@ -1,0 +1,33 @@
+{
+  "gate": "T4-V1 local-rule installs something",
+  "config": {
+    "n": 40,
+    "density": 0.2,
+    "episodes": 300
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "control_fidelity": 0.19793279433481759,
+      "installed_fidelity": 0.031038870593878776,
+      "gain": -0.1668939237409388
+    },
+    {
+      "seed": 1,
+      "control_fidelity": 0.17525359396264018,
+      "installed_fidelity": 0.12319905399586617,
+      "gain": -0.052054539966774005
+    },
+    {
+      "seed": 2,
+      "control_fidelity": 0.7099566000950968,
+      "installed_fidelity": 0.8196335617224418,
+      "gain": 0.10967696162734508
+    }
+  ],
+  "mean_control": 0.36104766279751815,
+  "mean_installed": 0.32462382877072893,
+  "mean_gain": -0.03642383402678925,
+  "criterion": "installed - control > 0.1 on >=2/3 seeds",
+  "passed": false
+}

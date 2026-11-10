@@ -1,0 +1,226 @@
+{
+  "experiment": "T1-V5 Effect-B on REAL activity (Kato 2015, data-driven dynamics)",
+  "substrate": "real-celegans-activity",
+  "bitdepth": "int8",
+  "per_worm": [
+    {
+      "worm": 0,
+      "n_neurons": 109,
+      "base_fps": 0.0,
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "worm": 1,
+      "n_neurons": 135,
+      "base_fps": 0.0,
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "worm": 2,
+      "n_neurons": 131,
+      "base_fps": 0.008249012538083099,
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "worm": 3,
+      "n_neurons": 125,
+      "base_fps": 0.0,
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        }
+      ]
+    },
+    {
+      "worm": 4,
+      "n_neurons": 129,
+      "base_fps": 0.23341674222517092,
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.20593011249523566,
+          "fps_engram": 0.20651918258841037,
+          "margin": 0.000589070093174715
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.16181876568119002,
+          "fps_engram": 0.16646607758579707,
+          "margin": 0.004647311904607043
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.11281505963790123,
+          "fps_engram": 0.055513293086226205,
+          "margin": -0.05730176655167502
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.01852992504186187,
+          "fps_engram": 0.0,
+          "margin": -0.01852992504186187
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.0,
+          "margin": 0.0
+        }
+      ]
+    }
+  ],
+  "mean_margin_low_regime": 0.0005236381997781759,
+  "mean_margin_high_regime": -0.005055446106235793,
+  "reproduces_leaky_rate_boundary": false,
+  "mean_base_fps": 0.048333150952650804
+}

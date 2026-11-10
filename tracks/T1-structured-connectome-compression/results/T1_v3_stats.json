@@ -1,0 +1,77 @@
+{
+  "experiment": "T1 statistical hardening (primary policy, CIs, floors)",
+  "substrate": "real-celegans",
+  "primary_engram_policy": "strength",
+  "n_stim_seeds": 8,
+  "effective_sparsity_floor_deterministic": {
+    "int8|uniform": 0.0,
+    "int8|engram_strength": 0.0,
+    "int4|uniform": 0.7296,
+    "int4|engram_strength": 0.2698,
+    "ternary|uniform": 0.9801,
+    "ternary|engram_strength": 0.3179
+  },
+  "int4_matched_sparsity_curve": [
+    {
+      "target_sparsity": 0.5,
+      "uniform_fps": {
+        "mean": 0.030625065079463776,
+        "ci95": [
+          0.0,
+          0.08837024037211536
+        ]
+      },
+      "engram_strength_fps": {
+        "mean": 0.2964529024881241,
+        "ci95": [
+          0.12134772773111291,
+          0.4766304987804935
+        ]
+      },
+      "margin": 0.26582783740866034,
+      "p_engram_gt_uniform": 0.014898510148985102,
+      "cohens_d": 1.3033077374581117
+    },
+    {
+      "target_sparsity": 0.6,
+      "uniform_fps": {
+        "mean": 0.030625065079463776,
+        "ci95": [
+          0.0,
+          0.08837024037211536
+        ]
+      },
+      "engram_strength_fps": {
+        "mean": 0.31362590019803693,
+        "ci95": [
+          0.13160151216503416,
+          0.4817448734127669
+        ]
+      },
+      "margin": 0.28300083511857316,
+      "p_engram_gt_uniform": 0.011698830116988301,
+      "cohens_d": 1.4053215576962732
+    },
+    {
+      "target_sparsity": 0.7,
+      "uniform_fps": {
+        "mean": 0.030625065079463776,
+        "ci95": [
+          0.0,
+          0.08837024037211536
+        ]
+      },
+      "engram_strength_fps": {
+        "mean": 0.20325204034716962,
+        "ci95": [
+          0.07233157092892259,
+          0.35001587487157826
+        ]
+      },
+      "margin": 0.17262697526770585,
+      "p_engram_gt_uniform": 0.030996900309969003,
+      "cohens_d": 1.0391052205410074
+    }
+  ],
+  "note": "Floors are deterministic weight-distribution properties (no seed variance). Structure comparison uses the pre-registered primary policy only (no max-over-policies)."
+}

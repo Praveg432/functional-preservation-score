@@ -1,0 +1,45 @@
+{
+  "gate": "T1-V2 structure-advantage",
+  "substrate": "real-celegans",
+  "operating_point": {
+    "sparsity": 0.5,
+    "quant": "int4",
+    "protect_frac": 0.25
+  },
+  "criterion": "engram FPS>=0.5 AND margin>=0.15 on >=2/3 seeds",
+  "per_seed": [
+    {
+      "seed": 0,
+      "stim_seed": 1,
+      "sparsity_uniform": 0.7295756808106397,
+      "sparsity_engram": 0.5034832172260925,
+      "fps_uniform": 0.0,
+      "fps_engram": 0.0,
+      "margin": 0.0
+    },
+    {
+      "seed": 1,
+      "stim_seed": 2,
+      "sparsity_uniform": 0.7295756808106397,
+      "sparsity_engram": 0.5034832172260925,
+      "fps_uniform": 0.0,
+      "fps_engram": 0.6177117025126513,
+      "margin": 0.6177117025126513
+    },
+    {
+      "seed": 2,
+      "stim_seed": 3,
+      "sparsity_uniform": 0.7295756808106397,
+      "sparsity_engram": 0.5034832172260925,
+      "fps_uniform": 0.23098070117060632,
+      "fps_engram": 0.5289509334213628,
+      "margin": 0.2979702322507565
+    }
+  ],
+  "mean_fps_uniform": 0.07699356705686877,
+  "mean_fps_engram": 0.3822208786446713,
+  "mean_margin": 0.3052273115878026,
+  "seeds_passing": 2,
+  "passed": true,
+  "killed_hypothesis": false
+}

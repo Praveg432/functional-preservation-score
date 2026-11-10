@@ -1,0 +1,30 @@
+{
+  "gate": "T2-V1 correspondence sanity",
+  "substrate": "real-celegans + perturbation model",
+  "n": 306,
+  "chance": 0.0032679738562091504,
+  "per_rewire": [
+    {
+      "rewire_frac": 0.0,
+      "corr_accuracy": 0.9215686274509803,
+      "chance": 0.0032679738562091504
+    },
+    {
+      "rewire_frac": 0.05,
+      "corr_accuracy": 0.8790849673202614,
+      "chance": 0.0032679738562091504
+    },
+    {
+      "rewire_frac": 0.1,
+      "corr_accuracy": 0.8431372549019608,
+      "chance": 0.0032679738562091504
+    },
+    {
+      "rewire_frac": 0.2,
+      "corr_accuracy": 0.5424836601307189,
+      "chance": 0.0032679738562091504
+    }
+  ],
+  "criterion": "GW accuracy at rewire=0 >> chance (>0.3 and >50x chance)",
+  "passed": true
+}

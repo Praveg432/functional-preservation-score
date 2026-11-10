@@ -1,0 +1,90 @@
+{
+  "experiment": "T1-V4 dynamics robustness of Effect-B boundary",
+  "substrate": "real-celegans",
+  "bitdepth": "int8",
+  "models": {
+    "leaky_rate_tanh": {
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.751122410527349,
+          "fps_engram": 0.380512021160104,
+          "margin": -0.37061038936724494
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.43424376203495524,
+          "fps_engram": 0.3678785571671577,
+          "margin": -0.06636520486779751
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.23406153382732475,
+          "fps_engram": 0.35978639302479126,
+          "margin": 0.1257248591974665
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.2728465253503714,
+          "fps_engram": 0.3573206446263251,
+          "margin": 0.08447411927595372
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.15858523865971344,
+          "fps_engram": 0.360894435503496,
+          "margin": 0.20230919684378254
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.044254042068990675,
+          "fps_engram": 0.1356811448139921,
+          "margin": 0.09142710274500143
+        }
+      ],
+      "boundary_preserved": true
+    },
+    "sigmoid_conductance": {
+      "curve": [
+        {
+          "target": 0.3,
+          "fps_uniform": 0.8983534039420329,
+          "fps_engram": 0.5248845047935786,
+          "margin": -0.37346889914845427
+        },
+        {
+          "target": 0.4,
+          "fps_uniform": 0.8245738489850002,
+          "fps_engram": 0.22378819584551804,
+          "margin": -0.6007856531394822
+        },
+        {
+          "target": 0.5,
+          "fps_uniform": 0.710474347184725,
+          "fps_engram": 0.16449698219950262,
+          "margin": -0.5459773649852224
+        },
+        {
+          "target": 0.6,
+          "fps_uniform": 0.53191002607414,
+          "fps_engram": 0.13322961062717173,
+          "margin": -0.3986804154469682
+        },
+        {
+          "target": 0.7,
+          "fps_uniform": 0.0,
+          "fps_engram": 0.06641344332645771,
+          "margin": 0.06641344332645771
+        },
+        {
+          "target": 0.8,
+          "fps_uniform": 0.12594709186158462,
+          "fps_engram": 0.0,
+          "margin": -0.12594709186158462
+        }
+      ],
+      "boundary_preserved": false
+    }
+  },
+  "boundary_model_invariant": false
+}

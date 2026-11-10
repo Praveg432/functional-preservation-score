@@ -1,0 +1,719 @@
+{
+  "experiment": "T1-V3 breakdown map",
+  "substrate": "real-celegans",
+  "axes": {
+    "bitdepths": [
+      "int8",
+      "int4",
+      "ternary"
+    ],
+    "targets": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "policies": [
+      "uniform",
+      "engram:strength",
+      "engram:betweenness",
+      "engram:kcore"
+    ]
+  },
+  "surface": [
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.3,
+      "achieved_sparsity": 0.3001899936668778,
+      "fps": 0.751122410527349,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.43424376203495524,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.23406153382732475,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.2728465253503714,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.7,
+      "achieved_sparsity": 0.6998100063331223,
+      "fps": 0.15858523865971344,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.044254042068990675,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "uniform",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.3,
+      "achieved_sparsity": 0.3001899936668778,
+      "fps": 0.380512021160104,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.3678785571671577,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.35978639302479126,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.3573206446263251,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.7,
+      "achieved_sparsity": 0.6998100063331223,
+      "fps": 0.360894435503496,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.1356811448139921,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:strength",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.3,
+      "achieved_sparsity": 0.3001899936668778,
+      "fps": 0.3391424208266171,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.32885716536808696,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.27608743982289746,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.22952758102470325,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.7,
+      "achieved_sparsity": 0.6998100063331223,
+      "fps": 0.22093442343383754,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.19274183863542202,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:betweenness",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.3,
+      "achieved_sparsity": 0.3001899936668778,
+      "fps": 0.5036896339548589,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.38546656609269503,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.3513553844559958,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.24135561459725716,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.7,
+      "achieved_sparsity": 0.6998100063331223,
+      "fps": 0.13227454374061676,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int8",
+      "policy": "engram:kcore",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.3,
+      "achieved_sparsity": 0.7295756808106397,
+      "fps": 0.07699356705686877,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.4,
+      "achieved_sparsity": 0.7295756808106397,
+      "fps": 0.07699356705686877,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.5,
+      "achieved_sparsity": 0.7295756808106397,
+      "fps": 0.07699356705686877,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.6,
+      "achieved_sparsity": 0.7295756808106397,
+      "fps": 0.07699356705686877,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.7,
+      "achieved_sparsity": 0.7295756808106397,
+      "fps": 0.07699356705686877,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "uniform",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.3,
+      "achieved_sparsity": 0.3001899936668778,
+      "fps": 0.3837929940718605,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.3663322330639389,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.3200452736281271,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.6,
+      "achieved_sparsity": 0.6000633312222926,
+      "fps": 0.35093736577342444,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.7,
+      "achieved_sparsity": 0.6998100063331223,
+      "fps": 0.3491212517819921,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.13645662514770798,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:strength",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.3,
+      "achieved_sparsity": 0.32045598480050663,
+      "fps": 0.3058841727090556,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.4,
+      "achieved_sparsity": 0.3999366687777074,
+      "fps": 0.3188512776133124,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.23978048992617973,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.24856047672263418,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.7,
+      "achieved_sparsity": 0.6956934768841039,
+      "fps": 0.22135306805805777,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.8,
+      "achieved_sparsity": 0.7998733375554148,
+      "fps": 0.1792827637688502,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:betweenness",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.3,
+      "achieved_sparsity": 0.2998733375554148,
+      "fps": 0.4868757872688665,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.4,
+      "achieved_sparsity": 0.4002533248891703,
+      "fps": 0.38537011050260556,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.3501171110668689,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.29490822829162683,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.7,
+      "achieved_sparsity": 0.7001266624445852,
+      "fps": 0.16973472873324627,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.8,
+      "achieved_sparsity": 0.7998733375554148,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "int4",
+      "policy": "engram:kcore",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.3,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.4,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.5,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.6,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.7,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.8,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "uniform",
+      "target": 0.9,
+      "achieved_sparsity": 0.9800506649778341,
+      "fps": 0.0,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.3,
+      "achieved_sparsity": 0.31792273590880304,
+      "fps": 0.30419727359545756,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.4,
+      "achieved_sparsity": 0.3999366687777074,
+      "fps": 0.35567334287766644,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.32078573757318424,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.6,
+      "achieved_sparsity": 0.6025965801139962,
+      "fps": 0.35402169059267513,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.7,
+      "achieved_sparsity": 0.702026599113363,
+      "fps": 0.3576037322432481,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.13711707879648258,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:strength",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.3,
+      "achieved_sparsity": 0.40880303989867006,
+      "fps": 0.2878316556247104,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.4,
+      "achieved_sparsity": 0.40880303989867006,
+      "fps": 0.2878316556247104,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.26122396134826287,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.20044019020373408,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.7,
+      "achieved_sparsity": 0.7026599113362888,
+      "fps": 0.19723633918323416,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.04191636851021715,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:betweenness",
+      "target": 0.9,
+      "achieved_sparsity": 0.9002533248891703,
+      "fps": 0.0,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.3,
+      "achieved_sparsity": 0.31792273590880304,
+      "fps": 0.47040639699024195,
+      "below_floor": true
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.4,
+      "achieved_sparsity": 0.40215326155794806,
+      "fps": 0.3493749121987599,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.5,
+      "achieved_sparsity": 0.4996833438885371,
+      "fps": 0.3885304975720663,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.6,
+      "achieved_sparsity": 0.5997466751108296,
+      "fps": 0.2690806303728517,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.7,
+      "achieved_sparsity": 0.701393286890437,
+      "fps": 0.08387237597396047,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.8,
+      "achieved_sparsity": 0.8001899936668777,
+      "fps": 0.012695246088741582,
+      "below_floor": false
+    },
+    {
+      "bitdepth": "ternary",
+      "policy": "engram:kcore",
+      "target": 0.9,
+      "achieved_sparsity": 0.8999366687777074,
+      "fps": 0.0,
+      "below_floor": false
+    }
+  ],
+  "effective_sparsity_floor": {
+    "int8|uniform": 0.0,
+    "int8|engram:strength": 0.0,
+    "int8|engram:betweenness": 0.0,
+    "int8|engram:kcore": 0.0,
+    "int4|uniform": 0.7296,
+    "int4|engram:strength": 0.2698,
+    "int4|engram:betweenness": 0.3205,
+    "int4|engram:kcore": 0.2422,
+    "ternary|uniform": 0.9801,
+    "ternary|engram:strength": 0.3179,
+    "ternary|engram:betweenness": 0.4088,
+    "ternary|engram:kcore": 0.3179
+  },
+  "mean_engram_advantage_by_bitdepth": {
+    "int8": 0.037826571338411975,
+    "int4": 0.24524807926832337,
+    "ternary": 0.2947646770103401
+  }
+}

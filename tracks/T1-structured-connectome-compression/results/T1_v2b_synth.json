@@ -1,0 +1,42 @@
+{
+  "experiment": "T1-V2b matched-effective-sparsity structure advantage",
+  "substrate": "synthetic-celegans",
+  "quant": "int4",
+  "protect_frac": 0.25,
+  "curve": [
+    {
+      "target_sparsity": 0.5,
+      "actual_sparsity_uniform": 0.5,
+      "actual_sparsity_engram": 0.5,
+      "fps_uniform_mean": 0.3152376924901004,
+      "fps_engram_mean": 0.8272987092605345,
+      "margin_mean": 0.512061016770434
+    },
+    {
+      "target_sparsity": 0.6,
+      "actual_sparsity_uniform": 0.600145137880987,
+      "actual_sparsity_engram": 0.600145137880987,
+      "fps_uniform_mean": 0.1342175871813461,
+      "fps_engram_mean": 0.6525241177476562,
+      "margin_mean": 0.51830653056631
+    },
+    {
+      "target_sparsity": 0.7,
+      "actual_sparsity_uniform": 0.6999274310595065,
+      "actual_sparsity_engram": 0.6999274310595065,
+      "fps_uniform_mean": 0.0,
+      "fps_engram_mean": 0.04315355103645605,
+      "margin_mean": 0.04315355103645605
+    },
+    {
+      "target_sparsity": 0.8,
+      "actual_sparsity_uniform": 0.8000725689404935,
+      "actual_sparsity_engram": 0.8000725689404935,
+      "fps_uniform_mean": 0.0,
+      "fps_engram_mean": 0.0,
+      "margin_mean": 0.0
+    }
+  ],
+  "mean_margin": 0.2683802745933,
+  "engram_advantage_confirmed": true
+}

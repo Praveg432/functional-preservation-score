@@ -1,0 +1,20 @@
+[project]
+name = "mind-migration-research"
+version = "0.0.1"
+description = "Connectome function-preservation research: FPS metric + compression/alignment/write operations on public connectomes."
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "torch>=2.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["shared"]

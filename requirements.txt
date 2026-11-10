@@ -1,0 +1,20 @@
+# Core (all tracks)
+numpy>=1.26
+scipy>=1.11
+torch>=2.2
+pytest>=7.0
+
+# Real-activity readout (Kato 2015 .mat is MATLAB v7.3 / HDF5)
+h5py>=3.10
+
+# DANDI NWB streaming (T3 replay data) and paper figures
+remfile>=0.1
+matplotlib>=3.8
+# Paper build also needs `tectonic` (LaTeX), installed outside pip.
+
+# Setup (macOS externally-managed Python -> use a venv):
+#   python3 -m venv .venv
+#   .venv/bin/python -m pip install -r requirements.txt
+# Fetch datasets (once, needs network):
+#   .venv/bin/python scripts/fetch_celegans.py            # real connectome -> data/celegans_real.npz
+#   curl -sL https://osf.io/na4f9/download -o data/kato2015_WT_NoStim.mat   # real activity (56 MB)

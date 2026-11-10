@@ -1,0 +1,119 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cook et~al.(2019)Cook, Jarrell, Brittin, et~al.]{cook2019connectome}
+Steven~J. Cook, Travis~A. Jarrell, Christopher~A. Brittin, et~al.
+\newblock Whole-animal connectomes of both {Caenorhabditis elegans} sexes.
+\newblock \emph{Nature}, 571:\penalty0 63--71, 2019.
+
+\bibitem[Diba \& Buzs{\'a}ki(2007)Diba and Buzs{\'a}ki]{diba2007forward}
+Kamran Diba and Gy{\"o}rgy Buzs{\'a}ki.
+\newblock Forward and reverse hippocampal place-cell sequences during ripples.
+\newblock \emph{Nature Neuroscience}, 10\penalty0 (10):\penalty0 1241--1242,
+  2007.
+
+\bibitem[Dorkenwald et~al.(2024)]{dorkenwald2024flywire}
+Sven Dorkenwald et~al.
+\newblock Neuronal wiring diagram of an adult brain.
+\newblock \emph{Nature}, 634:\penalty0 124--138, 2024.
+
+\bibitem[{FlyWire-GNN authors}(2025)]{flygnn2025}
+{FlyWire-GNN authors}.
+\newblock Whole-brain connectomic graph neural networks enable whole-body
+  locomotion control in {Drosophila}.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, 2025.
+
+\bibitem[Frankle \& Carbin(2019)Frankle and Carbin]{frankle2019lottery}
+Jonathan Frankle and Michael Carbin.
+\newblock The lottery ticket hypothesis: Finding sparse, trainable neural
+  networks.
+\newblock \emph{International Conference on Learning Representations (ICLR)},
+  2019.
+
+\bibitem[Grosmark \& Buzs{\'a}ki(2016)Grosmark and
+  Buzs{\'a}ki]{grosmark2016diversity}
+Andres~D. Grosmark and Gy{\"o}rgy Buzs{\'a}ki.
+\newblock Diversity in neural firing dynamics supports both rigid and learned
+  hippocampal sequences.
+\newblock \emph{Science}, 351\penalty0 (6280):\penalty0 1440--1443, 2016.
+
+\bibitem[Hampson et~al.(2018)Hampson, Song, Robinson,
+  et~al.]{hampson2018prosthetic}
+Robert~E. Hampson, Dong Song, Brian~S. Robinson, et~al.
+\newblock Developing a hippocampal neural prosthetic to facilitate human memory
+  encoding and recall.
+\newblock \emph{Journal of Neural Engineering}, 15\penalty0 (3):\penalty0
+  036014, 2018.
+
+\bibitem[Jung et~al.(2025)Jung, Zeng, Fabbri, et~al.]{jung2025bisc}
+Taesung Jung, Nanyu Zeng, Jason~D. Fabbri, et~al.
+\newblock A wireless subdural-contained brain--computer interface with 65,536
+  electrodes and 1,024 channels.
+\newblock \emph{Nature Electronics}, 2025.
+
+\bibitem[Kato et~al.(2015)Kato, Kaplan, Schr{\"o}del, et~al.]{kato2015global}
+Saul Kato, Harris~S. Kaplan, Tina Schr{\"o}del, et~al.
+\newblock Global brain dynamics embed the motor command sequence of
+  {Caenorhabditis elegans}.
+\newblock \emph{Cell}, 163\penalty0 (3):\penalty0 656--669, 2015.
+
+\bibitem[Khedri et~al.(2025)]{gnnprunequant2025}
+K.~Khedri et~al.
+\newblock Pruning and quantization impact on graph neural networks, 2025.
+\newblock arXiv:2510.22058.
+
+\bibitem[Peyr{\'e} et~al.(2016)Peyr{\'e}, Cuturi, and Solomon]{peyre2016gw}
+Gabriel Peyr{\'e}, Marco Cuturi, and Justin Solomon.
+\newblock Gromov-{W}asserstein averaging of kernel and distance matrices.
+\newblock \emph{International Conference on Machine Learning (ICML)}, 2016.
+
+\bibitem[Randi et~al.(2023)Randi, Sharma, Dvali, and Leifer]{randi2023signal}
+Francesco Randi, Anuj~K. Sharma, Sophie Dvali, and Andrew~M. Leifer.
+\newblock Neural signal propagation atlas of {Caenorhabditis elegans}.
+\newblock \emph{Nature}, 623:\penalty0 406--414, 2023.
+
+\bibitem[Thual et~al.(2022)Thual, Tran, Zemskova, Courty, Flamary, Dehaene, and
+  Thirion]{thual2022fugw}
+Alexis Thual, Huy Tran, Tatiana Zemskova, Nicolas Courty, R{\'e}mi Flamary,
+  Stanislas Dehaene, and Bertrand Thirion.
+\newblock Aligning individual brains with fused unbalanced
+  {Gromov-Wasserstein}.
+\newblock \emph{Advances in Neural Information Processing Systems (NeurIPS)},
+  2022.
+
+\bibitem[von~der Ohe et~al.(2006)von~der Ohe, Darian-Smith, Garner, and
+  Heller]{vonderohe2006torpor}
+Christina~G. von~der Ohe, Corinna Darian-Smith, Craig~C. Garner, and H.~Craig
+  Heller.
+\newblock Ubiquitous and temperature-dependent neural plasticity in
+  hibernators.
+\newblock \emph{Journal of Neuroscience}, 26\penalty0 (41):\penalty0
+  10590--10598, 2006.
+
+\bibitem[White et~al.(1986)White, Southgate, Thomson, and
+  Brenner]{white1986structure}
+John~G. White, Eileen Southgate, J.~Nichol Thomson, and Sydney Brenner.
+\newblock The structure of the nervous system of the nematode {Caenorhabditis
+  elegans}.
+\newblock \emph{Philosophical Transactions of the Royal Society B},
+  314\penalty0 (1165):\penalty0 1--340, 1986.
+
+\bibitem[Xu et~al.(2019{\natexlab{a}})Xu, Luo, and Carin]{xu2019sgwl}
+Hongteng Xu, Dixin Luo, and Lawrence Carin.
+\newblock Scalable gromov-{W}asserstein learning for graph partitioning and
+  matching.
+\newblock \emph{Advances in Neural Information Processing Systems (NeurIPS)},
+  2019{\natexlab{a}}.
+
+\bibitem[Xu et~al.(2019{\natexlab{b}})Xu, Luo, Zha, and Carin]{xu2019gwl}
+Hongteng Xu, Dixin Luo, Hongyuan Zha, and Lawrence Carin.
+\newblock Gromov-{W}asserstein learning for graph matching and node embedding.
+\newblock In \emph{International Conference on Machine Learning (ICML)},
+  2019{\natexlab{b}}.
+
+\end{thebibliography}

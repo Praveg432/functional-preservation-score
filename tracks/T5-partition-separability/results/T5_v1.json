@@ -1,0 +1,29 @@
+{
+  "gate": "T5-V1 readout+ablation sanity",
+  "substrate": "real-celegans",
+  "fps_intact": 1.0,
+  "dose_response": [
+    {
+      "ablate_frac": 0.0,
+      "fps": 1.0
+    },
+    {
+      "ablate_frac": 0.1,
+      "fps": 0.0
+    },
+    {
+      "ablate_frac": 0.2,
+      "fps": 0.33705258328153376
+    },
+    {
+      "ablate_frac": 0.4,
+      "fps": 0.0
+    },
+    {
+      "ablate_frac": 0.6,
+      "fps": 0.0
+    }
+  ],
+  "criterion": "intact~1.0 AND large lesion drops FPS >0.2 AND dose-responsive",
+  "passed": true
+}
