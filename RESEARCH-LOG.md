@@ -732,3 +732,19 @@ optional journal later, never two at once. 4 PDFs build clean, 6 tests pass.
 
 Remaining human actions (only the clicks): arXiv upload + fields; TMLR OpenReview submit +
 anonymised repo link; workshop style swap + submit. No technical blockers left.
+
+## 2026-11-10 (git repo configured)
+
+Configured git inside `mind-migration-research/` only (isolated .git; parent "research proposals"
+is NOT a repo, matching dsd-svm/omnist pattern). `git init -b main`; LOCAL (repo-scoped) config
+user.name="Praveg Vashishtha", user.email=omvashishtha432@gmail.com; remote origin =
+https://github.com/Praveg432/functional-preservation-score.git.
+
+Fixed .gitignore to exclude all fetched data under data/** (caught dandi/spikes/trajectory that
+were initially staged) + .venv + LaTeX intermediates + figure PNGs; kept paper.bbl + arXiv tarball.
+Added MIT LICENSE (code) with CC BY 4.0 note for paper/figures (matches dsd-svm MIT convention).
+Added Data-availability + License sections to README. Scanned staged diff for secrets - none.
+
+Initial commit 09a9158: 192 files (code, docs, 4 paper variants, figures, committed result/stats
+artifacts); no data/venv. Working tree clean. 6 tests still pass. Ready to push:
+  git push -u origin main   (needs user's GitHub credentials/PAT)

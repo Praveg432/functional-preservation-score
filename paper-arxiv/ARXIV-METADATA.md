@@ -24,8 +24,9 @@ CC BY 4.0 (Creative Commons Attribution 4.0 International). Select "arXiv.org pe
 non-exclusive license" plus CC BY 4.0 on the arXiv license step.
 
 ## Comments field
-"17 pages with appendix; 4 figures. Code and data loaders released. Submitted to TMLR."
-(Adjust page count to the built PDF; update the TMLR line once an OpenReview ID exists.)
+"5 pages, 4 figures. Code, data loaders, and all result artifacts at
+https://github.com/Praveg432/functional-preservation-score . Submitted to TMLR."
+(Update the TMLR line once an OpenReview ID exists.)
 
 ## Abstract (plain text for the arXiv form)
 We introduce the Functional Preservation Score (FPS), a null-normalised, behaviourally grounded
