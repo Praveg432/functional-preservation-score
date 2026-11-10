@@ -35,9 +35,10 @@ Why not the alternatives as *primary*:
 
 ### Plan (ordered)
 
-1. **arXiv preprint (now).** Post the de-anonymized version (`paper/paper.pdf`, or the TMLR
-   `[preprint]` build) to `q-bio.NC` with cross-list `cs.LG`. Needs a q-bio.NC endorsement for a
-   first submission. Gives a citeable timestamp and does not conflict with TMLR.
+1. **arXiv preprint (now).** Post the de-anonymized version (`paper-arxiv/`) under a **cs primary**
+   category (cs.NE, or cs.LG) with q-bio.NC as an optional cross-list. You are endorsed for cs,
+   not q-bio, and arXiv requires endorsement for the primary category, so q-bio.NC must not be the
+   primary. Gives a citeable timestamp and does not conflict with TMLR.
 2. **TMLR submission (primary).** Submit the **anonymized** TMLR build (`paper-tmlr/paper.pdf`)
    via OpenReview. Single-paragraph abstract, authors hidden, code/data links given as an
    anonymized repository. Appendix (statistical audit detail) after references.
@@ -57,6 +58,6 @@ Why not the alternatives as *primary*:
 - [ ] Figures legible at print size; captions self-contained (done).
 
 ### What needs human input before submission
-- Author names/affiliations (withheld in the review build; added for camera-ready/arXiv).
-- arXiv q-bio.NC endorser.
+- Author names/affiliations: resolved (Praveg Vashishtha, IIT Patna + Sopra Banking Software India).
+- arXiv: cs-endorsed, so submit under cs.NE/cs.LG primary; no q-bio endorser required.
 - An anonymized code/data repository URL for the review version.

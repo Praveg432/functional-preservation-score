@@ -9,7 +9,7 @@ and Sopra Banking Software India, praveg_pa2503mth259@iitp.ac.in.
 ## 1. arXiv (preprint) — PARALLEL-SAFE, do first
 See `paper-arxiv/ARXIV-METADATA.md` for the full form. Summary:
 - Upload: `paper-arxiv/arxiv-submission.tar.gz`
-- Primary: q-bio.NC; cross-list: cs.LG (optionally cs.NE)
+- Primary: cs.NE (endorsed for cs, not q-bio); cross-list: cs.LG, optionally q-bio.NC
 - License: CC BY 4.0
 - Comments: "4 figures; code and data loaders released. Submitted to TMLR."
 

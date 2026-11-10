@@ -32,11 +32,13 @@ Regenerates all figures from the committed result artifacts and rebuilds every P
 tarball. Requires the `.venv` and `tectonic`.
 
 ## Step 1 — arXiv  (files: `paper-arxiv/`)
-1. Log in to arXiv (you have prior submissions, so no endorsement needed).
+1. Log in to arXiv. You are endorsed for cs (not q-bio), so submit under a cs primary category.
 2. Start a new submission; upload `paper-arxiv/arxiv-submission.tar.gz`.
 3. Confirm the auto-built PDF matches `paper-arxiv/paper.pdf`.
 4. Paste fields from `paper-arxiv/ARXIV-METADATA.md`: title, authors, abstract (plain text),
-   primary **q-bio.NC**, cross-list **cs.LG**, comments.
+   primary **cs.NE** (cs-endorsed; cs.LG is an equally valid primary), cross-list **cs.LG** and
+   optionally **q-bio.NC** (cross-list only -- do not set q-bio as primary without endorsement),
+   comments.
 5. License: **CC BY 4.0**.
 6. Submit. (Author block already set to Praveg Vashishtha.)
 

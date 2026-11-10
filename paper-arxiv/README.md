@@ -38,5 +38,6 @@ makes the bibliography resolve without a BibTeX pass. The tarball deliberately o
 ## Before uploading
 1. Replace the author placeholders in `paper.tex`, rebuild, and repackage (steps above).
 2. Fill the Authors field in `ARXIV-METADATA.md` to match.
-3. Obtain a q-bio.NC endorsement if this is a first submission there.
+3. Submit under a cs primary category (cs.NE or cs.LG); you are endorsed for cs, not q-bio, so
+   q-bio.NC can only be an optional cross-list.
 4. Choose a license (CC BY 4.0 recommended).

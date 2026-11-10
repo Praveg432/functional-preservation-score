@@ -14,10 +14,15 @@ Patna, India; and Sopra Banking Software India.
 Email: praveg_pa2503mth259@iitp.ac.in
 
 ## Primary category
-q-bio.NC (Neurons and Cognition)
+cs.NE (Neural and Evolutionary Computing)
+   Rationale: you are endorsed for cs but not q-bio, and arXiv requires endorsement for the
+   PRIMARY category. cs.NE is the most natural cs home for connectome / neural-network modelling.
+   Acceptable alternative primary (also cs-endorsed): cs.LG (Machine Learning).
 
 ## Cross-list categories
-cs.LG (Machine Learning); optionally cs.NE (Neural and Evolutionary Computing)
+cs.LG (Machine Learning). Optionally q-bio.NC (Neurons and Cognition) as a cross-list only --
+cross-lists to non-endorsed categories are permitted, though a moderator may drop them. Do NOT
+set q-bio.NC as primary (no endorsement -> submission would be held/reclassified).
 
 ## License
 CC BY 4.0 (Creative Commons Attribution 4.0 International). Select "arXiv.org perpetual,
@@ -61,5 +66,5 @@ a clean extraction.
 - [ ] Replace author placeholders in paper.tex (and re-run `tectonic paper.tex`), then
       regenerate the tarball (see README).
 - [ ] Confirm paper.bbl is current (rebuild if references.bib changed).
-- [ ] Secure a q-bio.NC endorsement if this is a first submission in that category.
+- [ ] Submit under a cs primary (cs.NE or cs.LG) -- you are cs-endorsed; q-bio.NC is cross-list only.
 - [ ] Match the Authors field here to the paper.tex author block exactly.

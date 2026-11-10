@@ -748,3 +748,18 @@ Added Data-availability + License sections to README. Scanned staged diff for se
 Initial commit 09a9158: 192 files (code, docs, 4 paper variants, figures, committed result/stats
 artifacts); no data/venv. Working tree clean. 6 tests still pass. Ready to push:
   git push -u origin main   (needs user's GitHub credentials/PAT)
+
+## 2026-11-10 (pushed + repo URL wired in)
+
+Pushed to GitHub (cached credentials worked): commit 09a9158 (initial, 192 files) then fc5c182.
+Live: https://github.com/Praveg432/functional-preservation-score . Verified no data/venv in the
+pushed tree.
+
+Wired the live repo URL into the reproducibility sections of the DE-ANONYMISED builds
+(paper-arxiv, paper/) and the arXiv metadata comments. TMLR + workshop keep an anonymised note
+(real URL would deanonymise for review; link goes in camera-ready). Rebuilt all 4 PDFs + arXiv
+tarball via build_all.sh; committed + pushed. Confirmed: arXiv/general have the URL,
+TMLR/workshop do not. Repo isolated to the project (parent not a git repo). 6 tests pass.
+
+Submission package fully finalised and version-controlled. Remaining = the human submit clicks
+(arXiv upload, TMLR OpenReview, workshop when call opens) per paper/SUBMISSION-GUIDE.md.
