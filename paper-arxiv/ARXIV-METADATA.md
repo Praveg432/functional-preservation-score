@@ -1,5 +1,8 @@
 # arXiv submission metadata
 
+> **POSTED:** arXiv:2611.13681 — https://doi.org/10.48550/arXiv.2611.13681 (live).
+> The fields below record what was submitted.
+
 Copy these fields into the arXiv submission form. The abstract is given as plain text (arXiv's
 abstract field does not render LaTeX macros; keep plain ASCII / simple math).
 

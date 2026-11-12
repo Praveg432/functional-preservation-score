@@ -1,13 +1,26 @@
-# Mind-Migration Research — Partitioned Base-OS + Quantized Connectome Compilation
+# Functional Preservation Score — Auditing Connectome Operations
 
-A domain deep-dive and research scaffold for the thesis blueprint **"Radical Life
-Extension, Identity Quantization, and Mind Migration."** This folder is a self-contained
-study: it builds the proper understanding of the domain, vets every referenced
-breakthrough against the real literature, decomposes the proposed architecture into
-load-bearing claims, and lays out a staged, falsifiable roadmap.
+**Preprint (live):** *A Functional Preservation Score for Auditing Connectome Operations:
+Compression, Alignment, Transport, and Local-Rule Writing.*
+arXiv:[2611.13681](https://arxiv.org/abs/2611.13681) · DOI [10.48550/arXiv.2611.13681](https://doi.org/10.48550/arXiv.2611.13681)
 
-**Status:** domain deep-dive complete; novelty scan done; five experimental tracks (3 feasible
-core + 2 surrogate attacks on the blocked points) scaffolded with vetting gates, not yet executed.
+A measurement-first audit of the computational operations behind speculative "mind-migration"
+pipelines. The project introduces the **Functional Preservation Score (FPS)** and applies it in
+five pre-registered studies on the *C. elegans* connectome, whole-brain calcium activity, and
+hippocampal replay. **One-line result:** compression of neural data is measurable and bounded,
+while migration of function across substrates is not supported by the proposed
+partition→align→write pipeline — with the target substrate's own wiring the recurring limit.
+All at nematode / small-network scale: coherence in simulation, not biological feasibility.
+
+**New reader? Start with [`docs/`](docs/README.md)** — fundamental principles, data primer,
+findings walkthrough, and a referee-style review, with every number tied to a committed artifact.
+
+**Status:** preprint live on arXiv; code, data loaders, result artifacts, and four paper build
+variants released; statistically hardened (bootstrap CIs + permutation p-values).
+
+> This repository began as a domain deep-dive and research scaffold for the blueprint "Radical
+> Life Extension, Identity Quantization, and Mind Migration," then executed the feasible core and
+> the surrogate attacks on its blocked stages. The history is preserved in `RESEARCH-LOG.md`.
 
 ---
 
